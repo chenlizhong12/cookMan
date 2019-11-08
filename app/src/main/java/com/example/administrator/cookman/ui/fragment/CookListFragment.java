@@ -143,13 +143,13 @@ public class CookListFragment extends BaseFragment implements
         onClickOverlay();
     }
 
-    @OnClick(R.id.relative_about)
-    public void onClickAbout(){
-        MobclickAgent.onEvent(getActivity(), Constants.Umeng_Event_Id_About);
-
-        AboutActivity.startActivity(getActivity());
-        onClickOverlay();
-    }
+//    @OnClick(R.id.relative_about)
+//    public void onClickAbout(){
+//        MobclickAgent.onEvent(getActivity(), Constants.Umeng_Event_Id_About);
+//
+//        AboutActivity.startActivity(getActivity());
+//        onClickOverlay();
+//    }
 
     /********************************************************************************************/
     @Override
